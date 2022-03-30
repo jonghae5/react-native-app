@@ -1,9 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.fooddeliveryapp">
+  package="com.jonghae5.fooddeliveryapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+      <meta-data
+       android:name="com.naver.maps.map.cr7n3milv6"
+       android:value="cr7n3milv6" />
       android:usesCleartextTraffic="true"
       android:name=".MainApplication"
       android:label="@string/app_name"
